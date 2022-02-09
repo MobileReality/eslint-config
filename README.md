@@ -1,4 +1,4 @@
-# @mobilereality/eslint-config
+# @mobile-reality/eslint-config
 
 ## Requirements
 * for web: `react`, for mobile: `react-native`
