@@ -1,0 +1,1 @@
+# @mobile-reality/eslint-config
