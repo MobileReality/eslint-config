@@ -14,6 +14,6 @@ module.exports = {
         'react-native/no-inline-styles': 'error',
         'react-native/no-color-literals': 'error',
         'react-native/no-single-element-style-arrays': 'error',
-        'react-native/no-raw-text': 'off'
+        'react-native/no-raw-text': 'off',
     },
 };
