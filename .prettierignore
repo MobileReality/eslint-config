@@ -1,0 +1,5 @@
+.idea
+node_modules
+.husky
+package-lock.json
+README.md
