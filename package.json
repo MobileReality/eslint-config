@@ -32,7 +32,7 @@
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "release": "release-it --only-version",
+        "release": "release-it",
         "prepare": "husky install"
     },
     "dependencies": {
