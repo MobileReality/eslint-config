@@ -1,6 +1,14 @@
 # @mobile-reality/eslint-config
-
+[![Version](https://img.shields.io/npm/v/@mobile-reality/eslint-config?style=for-the-badge)](https://www.npmjs.com/package/@mobile-reality/eslint-config)
+[![GitHub stars](https://img.shields.io/github/stars/MobileReality/eslint-config?style=for-the-badge)](https://github.com/MobileReality/react-native-select-pro/stargazers)
+[![npm total downloads](https://img.shields.io/npm/dt/@mobile-reality/eslint-config?style=for-the-badge)](https://www.npmjs.com/package/@mobile-reality/eslint-config)
+[![npm week downloads](https://img.shields.io/npm/dw/@mobile-reality/eslint-config?style=for-the-badge)](https://www.npmjs.com/package/@mobile-reality/eslint-config)
+[![Last master branch commit](https://img.shields.io/github/last-commit/MobileReality/eslint-config/master?style=for-the-badge)](https://github.com/MobileReality/eslint-config/commits/master)
+[![License](https://img.shields.io/github/license/MobileReality/eslint-config?style=for-the-badge)](https://github.com/MobileReality/eslint-config/blob/master/LICENSE.md)
+---
 ESLint configuration of Mobile Reality Team
+
+---
 
 ## Table of Contents
 - [Requirements](#requirements)
