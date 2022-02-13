@@ -26,13 +26,13 @@ ESLint configuration of Mobile Reality Team
 * `eslint: ^8.9.0`
 
 ## Installation and usage for a new project
-1. Install `@mobilereality/eslint-config`, `eslint` and `prettier`:
+1. Install `@mobile-reality/eslint-config`, `eslint` and `prettier`:
     ```sh
-    yarn add -D @mobilereality/eslint-config eslint@latest prettier@latest
+    yarn add -D @mobile-reality/eslint-config eslint@latest prettier@latest
     ```
     or
     ```sh
-    npm i -D @mobilereality/eslint-config eslint@latest prettier@latest
+    npm i -D @mobile-reality/eslint-config eslint@latest prettier@latest
     ```
 
 2. Copy `.prettierrc` from `node_modules/@mobile-reality/eslint-config` to your root directory
@@ -41,7 +41,7 @@ ESLint configuration of Mobile Reality Team
     ```typescript jsx
     module.exports = {
         extends: [
-            '@mobilereality'
+            '@mobile-reality'
         ]
     };
     ```
@@ -49,7 +49,7 @@ ESLint configuration of Mobile Reality Team
     ```typescript jsx
     module.exports = {
         extends: [
-            '@mobilereality/eslint-config/react-javascript'
+            '@mobile-reality/eslint-config/react-javascript'
         ]
     };
     ```
@@ -57,7 +57,7 @@ ESLint configuration of Mobile Reality Team
     ```typescript jsx
     module.exports = {
         extends: [
-            '@mobilereality/eslint-config/react-native'
+            '@mobile-reality/eslint-config/react-native'
         ]
     };
     ```
@@ -72,7 +72,7 @@ You can override rules by adding a rule to the rules section e.g.:
 ```typescript jsx
     module.exports = {
         extends: [
-            '@mobilereality'
+            '@mobile-reality'
         ],
         rules: {
             "no-console": "off"
