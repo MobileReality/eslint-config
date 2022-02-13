@@ -1,0 +1,67 @@
+{
+    "name": "@mobilereality/eslint-config",
+    "version": "0.1.0",
+    "description": "ESLint configuration of Mobile Reality Team",
+    "engines": {
+        "node": "^16.13"
+    },
+    "main": "index.js",
+    "repository": "https://github.com/MobileReality/eslint-config",
+    "author": "Mobile Reality <biuro@mobilereality.pl> (https://mobilereality.pl)",
+    "contributors": [
+        {
+            "name": "@irekrog",
+            "url": "https://github.com/irekrog"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MobileReality/eslint-config/issues"
+    },
+    "homepage": "https://github.com/MobileReality/eslint-config/#readme",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/",
+        "access": "public"
+    },
+    "keywords": [
+        "eslint",
+        "config",
+        "eslint config",
+        "mobilereality",
+        "mobile reality"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "release": "release-it",
+        "prepare": "husky install"
+    },
+    "dependencies": {
+        "@react-native-community/eslint-config": "^3.0.1",
+        "@typescript-eslint/eslint-plugin": "^5.11.0",
+        "@typescript-eslint/parser": "^5.11.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-flowtype": "^8.0.3",
+        "eslint-plugin-jest": "^25.7.0",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-react": "^7.28.0",
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "eslint-plugin-react-native": "^4.0.0",
+        "eslint-plugin-simple-import-sort": "^7.0.0",
+        "eslint-plugin-unicorn": "^40.1.0"
+    },
+    "peerDependencies": {
+        "eslint": "^8.9.0",
+        "prettier": "^2.5.1"
+    },
+    "devDependencies": {
+        "@release-it/conventional-changelog": "^4.1.0",
+        "husky": "^7.0.4",
+        "lint-staged": "^12.3.3",
+        "prettier": "^2.5.1",
+        "release-it": "^14.12.4"
+    },
+    "lint-staged": {
+        "*.js": "prettier --write ."
+    }
+}
