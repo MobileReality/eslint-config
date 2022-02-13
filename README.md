@@ -5,7 +5,9 @@
 [![npm week downloads](https://img.shields.io/npm/dw/@mobile-reality/eslint-config?style=for-the-badge)](https://www.npmjs.com/package/@mobile-reality/eslint-config)
 [![Last master branch commit](https://img.shields.io/github/last-commit/MobileReality/eslint-config/master?style=for-the-badge)](https://github.com/MobileReality/eslint-config/commits/master)
 [![License](https://img.shields.io/github/license/MobileReality/eslint-config?style=for-the-badge)](https://github.com/MobileReality/eslint-config/blob/master/LICENSE.md)
+
 ---
+
 ESLint configuration of Mobile Reality Team
 
 ---
