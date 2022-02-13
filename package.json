@@ -1,5 +1,5 @@
 {
-    "name": "@mobilereality/eslint-config",
+    "name": "@mobile-reality/eslint-config",
     "version": "0.0.1",
     "description": "ESLint configuration of Mobile Reality Team",
     "engines": {
