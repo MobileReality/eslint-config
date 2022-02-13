@@ -1,11 +1,21 @@
 # @mobile-reality/eslint-config
 
+ESLint configuration of Mobile Reality Team
+
+## Table of Contents
+- [Requirements](#requirements)
+- [Installation and usage for a new project](#installation-and-usage-for-a-new-project)
+- [Installation and usage for an existing project](#installation-and-usage-for-an-existing-project)
+- [Override](#override)
+- [Used packages](#used-packages)
+- [License](#license)
+
 ## Requirements
 * for web: `react`, for mobile: `react-native`
 * `node: ^16.13`
 * `eslint: ^8.9.0`
 
-## Install for a new project
+## Installation and usage for a new project
 1. Install `@mobilereality/eslint-config`, `eslint` and `prettier`:
     ```sh
     yarn add -D @mobilereality/eslint-config eslint@latest prettier@latest
@@ -42,13 +52,13 @@
     };
     ```
    
-## Adding to an existing project
-1. Remove all `ESLint` and `prettier` dependencies (eg. `eslint`, `prettier`, `eslint-plugin-prettier`, `@typescript-eslint/eslint-plugin` etc.) from package.json
+## Installation and usage for an existing project
+1. Remove all `ESLint` and `prettier` dependencies (e.g. `eslint`, `prettier`, `eslint-plugin-prettier`, `@typescript-eslint/eslint-plugin` etc.) from package.json
 2. Reinstall `node_modules` (so remove them and install with `npm i` or `yarn install`)
-3. Go to the [installation step](https://github.com/MobileReality/eslint-config#install-for-a-new-project)
+3. Go to the [installation step](#installation-and-usage-for-a-new-project)
 
 ## Override
-You can override rules by adding a rule to the rules section:
+You can override rules by adding a rule to the rules section e.g.:
 ```typescript jsx
     module.exports = {
         extends: [
@@ -60,7 +70,7 @@ You can override rules by adding a rule to the rules section:
     };
 ```
 
-### Used packages
+## Used packages
 * [@react-native-community/eslint-config](https://github.com/facebook/react-native/tree/HEAD/packages/eslint-config-react-native-community)
 * [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin)
 * [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/parser)
