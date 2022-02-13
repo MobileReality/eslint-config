@@ -1,6 +1,6 @@
 {
     "name": "@mobilereality/eslint-config",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "description": "ESLint configuration of Mobile Reality Team",
     "engines": {
         "node": "^16.13"
@@ -32,7 +32,7 @@
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "release": "release-it",
+        "release": "release-it --only-version",
         "prepare": "husky install"
     },
     "dependencies": {
