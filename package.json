@@ -62,6 +62,6 @@
         "release-it": "^14.12.4"
     },
     "lint-staged": {
-        "*.{js}": "prettier --write ."
+        "*.js": "prettier --write ."
     }
 }
