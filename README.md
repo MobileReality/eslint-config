@@ -3,9 +3,9 @@
 ## Requirements
 * for web: `react`, for mobile: `react-native`
 * `node: ^16.13`
-* `eslint: ^8.8.0`
+* `eslint: ^8.9.0`
 
-## Install
+## Install for a new project
 1. Install `@mobilereality/eslint-config`, `eslint` and `prettier`:
     ```sh
     yarn add -D @mobilereality/eslint-config eslint@latest prettier@latest
@@ -16,8 +16,8 @@
     ```
 
 2. Copy `.prettierrc` from `node_modules/@mobile-reality/eslint-config` to your root directory
-3. Add to your project root `.eslintrc.js` file and:
-   * if you use **React with TypeScript**:
+3. Add to your root `.eslintrc.js` file and:
+   * if you are using **React with TypeScript**:
     ```typescript jsx
     module.exports = {
         extends: [
@@ -25,7 +25,7 @@
         ]
     };
     ```
-   * if you use **React without TypeScript**:
+   * if you are using **React without TypeScript**:
     ```typescript jsx
     module.exports = {
         extends: [
@@ -33,7 +33,7 @@
         ]
     };
     ```
-    * if you use **React Native with TypeScript**:
+    * if you are using **React Native with TypeScript**:
     ```typescript jsx
     module.exports = {
         extends: [
@@ -41,6 +41,24 @@
         ]
     };
     ```
+   
+## Adding to an existing project
+1. Remove all `ESLint` and `prettier` dependencies (eg. `eslint`, `prettier`, `eslint-plugin-prettier`, `@typescript-eslint/eslint-plugin` etc.) from package.json
+2. Reinstall `node_modules` (so remove them and install with `npm i` or `yarn install`)
+3. Go to the [installation step](https://github.com/MobileReality/eslint-config#install-for-a-new-project)
+
+## Override
+You can override rules by adding a rule to the rules section:
+```typescript jsx
+    module.exports = {
+        extends: [
+            '@mobilereality'
+        ],
+        rules: {
+            "no-console": "off"
+        }
+    };
+```
 
 ### Used packages
 * [@react-native-community/eslint-config](https://github.com/facebook/react-native/tree/HEAD/packages/eslint-config-react-native-community)
