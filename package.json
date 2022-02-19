@@ -33,6 +33,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "release": "release-it",
+        "release:beta": "release-it --preRelease=beta",
         "prepare": "husky install"
     },
     "dependencies": {
