@@ -13,7 +13,7 @@ module.exports = {
     plugins: {
         '@release-it/conventional-changelog': {
             preset: 'conventionalcommits',
-            ignoreRecommendedBump: false,
+            ignoreRecommendedBump: true,
         },
     },
 };
