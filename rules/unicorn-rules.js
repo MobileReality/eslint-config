@@ -25,5 +25,6 @@ module.exports = {
         'unicorn/prefer-spread': 'off',
         'unicorn/prevent-abbreviations': 'off',
         'unicorn/template-indent': 'off',
+        'unicorn/text-encoding-identifier-case': 'off',
     },
 };
