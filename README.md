@@ -23,7 +23,7 @@ ESLint configuration of Mobile Reality Team
 ## Requirements
 * for web: `react`, for mobile: `react-native`
 * `node: ^16.13`
-* `eslint: ^8.9.0`
+* `eslint: ^8.10.0`
 
 ## Installation and usage for a new project
 1. Install `@mobile-reality/eslint-config`, `eslint` and `prettier`:
