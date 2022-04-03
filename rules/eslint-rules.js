@@ -1,6 +1,7 @@
 module.exports = {
     rules: {
         'array-callback-return': 'error',
+        curly: 'error',
         'dot-notation': 'error',
         eqeqeq: 'error',
         'no-await-in-loop': 'warn',
