@@ -1,7 +1,7 @@
 {
     "name": "@mobile-reality/eslint-config",
     "version": "0.2.1-beta.1",
-    "description": "ESLint configuration of Mobile Reality Team",
+    "description": "ESLint's configuration of Mobile Reality Team",
     "engines": {
         "node": "^16.13"
     },
