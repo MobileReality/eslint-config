@@ -8,12 +8,7 @@ module.exports = {
         ],
         'unicorn/filename-case': 'off',
         'unicorn/no-array-callback-reference': 'off',
-        'unicorn/no-array-reduce': [
-            'error',
-            {
-                allowSimpleOperations: true,
-            },
-        ],
+        'unicorn/no-array-reduce': 'off',
         'unicorn/no-null': 'off',
         'unicorn/no-thenable': 'off',
         'unicorn/no-useless-undefined': 'off',

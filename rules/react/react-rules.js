@@ -5,7 +5,12 @@ module.exports = {
         'react/destructuring-assignment': 'error',
         'react/forbid-prop-types': 'error',
         'react/jsx-curly-brace-presence': 'error',
-        'react/jsx-no-useless-fragment': 'error',
+        'react/jsx-no-useless-fragment': [
+            'error',
+            {
+                allowExpressions: true,
+            },
+        ],
         'react/jsx-pascal-case': 'error',
         'react/jsx-sort-props': [
             'error',
