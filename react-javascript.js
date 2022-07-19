@@ -7,7 +7,6 @@ module.exports = {
         'plugin:react-hooks/recommended',
         'plugin:jsx-a11y/recommended',
         'plugin:jest/recommended',
-        require.resolve('./rules/eslint-rules.js'),
         require.resolve('./rules/react/react-rules.js'),
         require.resolve('./rules/react/react-hooks-rules.js'),
         require.resolve('./rules/simple-import-sort-rules.js'),
