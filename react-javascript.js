@@ -1,24 +1,16 @@
 module.exports = {
-    plugins: [
-        'react',
-        'react-hooks',
-        'jsx-a11y',
-        'jest',
-        'unicorn',
-        'simple-import-sort',
-    ],
+    plugins: ['react', 'react-hooks', 'jsx-a11y', 'jest', 'simple-import-sort'],
     extends: [
-        require.resolve('./configs/eslint.js'),
+        './configs/eslint',
+        './configs/unicorn',
         'plugin:react/recommended',
         'plugin:react-hooks/recommended',
-        'plugin:unicorn/recommended',
         'plugin:jsx-a11y/recommended',
         'plugin:jest/recommended',
         require.resolve('./rules/eslint-rules.js'),
         require.resolve('./rules/react/react-rules.js'),
         require.resolve('./rules/react/react-hooks-rules.js'),
         require.resolve('./rules/simple-import-sort-rules.js'),
-        require.resolve('./rules/unicorn-rules.js'),
         'plugin:prettier/recommended',
     ],
     env: {
