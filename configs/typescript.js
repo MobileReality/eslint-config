@@ -30,5 +30,22 @@ module.exports = {
         '@typescript-eslint/parameter-properties': 'off',
         '@typescript-eslint/member-ordering': 'off',
         '@typescript-eslint/unbound-method': 'off',
+        '@typescript-eslint/no-empty-interface': [
+            'error',
+            { allowSingleExtends: true },
+        ],
+        '@typescript-eslint/no-confusing-void-expression': 'off',
+        '@typescript-eslint/require-array-sort-compare': [
+            'error',
+            { ignoreStringArrays: true },
+        ],
+        '@typescript-eslint/no-misused-promises': 'off',
+        '@typescript-eslint/return-await': 'off',
+        '@typescript-eslint/non-nullable-type-assertion-style': 'warn',
+        '@typescript-eslint/no-non-null-assertion': 'warn',
+        '@typescript-eslint/no-shadow': 'off',
+        '@typescript-eslint/method-signature-style': 'off',
+        '@typescript-eslint/unified-signatures': 'off',
+        '@typescript-eslint/no-empty-function': 'off',
     },
 };
