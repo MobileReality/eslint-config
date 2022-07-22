@@ -32,7 +32,6 @@ module.exports = {
         'react/no-typos': 'error',
         'react/prop-types': 'off',
         'react/self-closing-comp': 'error',
-        'react-hooks/exhaustive-deps': 'off',
         'simple-import-sort/exports': 'error',
         'simple-import-sort/imports': [
             'error',
@@ -56,5 +55,8 @@ module.exports = {
                 ],
             },
         ],
+        '@typescript-eslint/no-confusing-void-expression': 'off',
+        '@typescript-eslint/no-misused-promises': 'off',
+        'no-underscore-dangle': 'off',
     },
 };

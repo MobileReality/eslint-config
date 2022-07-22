@@ -26,5 +26,6 @@ module.exports = {
         'init-declarations': 'off',
         'multiline-comment-style': 'off',
         'consistent-return': 'off',
+        'prefer-named-capture-group': 'off',
     },
 };
