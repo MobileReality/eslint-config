@@ -12,6 +12,10 @@
         {
             "name": "@irekrog",
             "url": "https://github.com/irekrog"
+        },
+        {
+          "name": "Mateusz Tkacz",
+          "url": "https://github.com/CatchMe2"
         }
     ],
     "license": "MIT",
