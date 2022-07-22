@@ -14,8 +14,8 @@
             "url": "https://github.com/irekrog"
         },
         {
-          "name": "Mateusz Tkacz",
-          "url": "https://github.com/CatchMe2"
+            "name": "Mateusz Tkacz",
+            "url": "https://github.com/CatchMe2"
         }
     ],
     "license": "MIT",
@@ -41,7 +41,6 @@
         "prepare": "husky install"
     },
     "dependencies": {
-        "@react-native-community/eslint-config": "^3.0.1",
         "@typescript-eslint/eslint-plugin": "^5.17.0",
         "@typescript-eslint/parser": "^5.17.0",
         "eslint-config-prettier": "^8.5.0",
