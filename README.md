@@ -81,7 +81,6 @@ You can override rules by adding a rule to the rules section e.g.:
 ```
 
 ## Used packages
-* [@react-native-community/eslint-config](https://github.com/facebook/react-native/tree/HEAD/packages/eslint-config-react-native-community)
 * [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin)
 * [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/parser)
 * [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)

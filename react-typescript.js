@@ -1,15 +1,9 @@
 module.exports = {
     extends: [
-        require.resolve('./react-javascript.js'),
+        './configs/eslint',
         './configs/typescript',
+        './configs/unicorn',
+        './configs/react',
         'plugin:prettier/recommended',
     ],
-    rules: {
-        'react/jsx-filename-extension': [
-            'warn',
-            {
-                extensions: ['.tsx'],
-            },
-        ],
-    },
 };

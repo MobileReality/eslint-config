@@ -3,10 +3,11 @@ module.exports = {
         'react-native/react-native': true,
     },
     extends: [
-        '@react-native-community',
-        require.resolve('./react-typescript.js'),
-        require.resolve('./rules/react/react-native/react-native-rules.js'),
+        './configs/eslint',
+        './configs/typescript',
+        './configs/unicorn',
+        './configs/react',
+        './configs/react-native',
         'plugin:prettier/recommended',
     ],
-    plugins: ['react-native'],
 };
