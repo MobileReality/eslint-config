@@ -5,7 +5,7 @@ module.exports = {
         'plugin:jsx-a11y/recommended',
         'plugin:jest/recommended',
     ],
-    plugins: ['react', 'react-hooks', 'jsx-a11y', 'jest', 'simple-import-sort'],
+    plugins: ['simple-import-sort'],
     rules: {
         'react/boolean-prop-naming': 'error',
         'react/button-has-type': 'error',
