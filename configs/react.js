@@ -58,5 +58,6 @@ module.exports = {
         '@typescript-eslint/no-confusing-void-expression': 'off',
         '@typescript-eslint/no-misused-promises': 'off',
         'no-underscore-dangle': 'off',
+        'class-methods-use-this': 'off',
     },
 };
