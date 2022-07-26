@@ -58,33 +58,33 @@
         "eslint-plugin-unicorn": "^43.0.2"
     },
     "peerDependenciesMeta": {
-      "@typescript-eslint/eslint-plugin": {
-          "optional": true
-      },
-      "@typescript-eslint/parser": {
-          "optional": true
-      },
-      "eslint-plugin-jest": {
-          "optional": true
-      },
-      "eslint-plugin-jsx-a11y": {
-          "optional": true
-      },
-      "eslint-plugin-react": {
-          "optional": true
-      },
-      "eslint-plugin-react-hooks": {
-          "optional": true
-      },
-      "eslint-plugin-react-native": {
-          "optional": true
-      },
-      "eslint-plugin-simple-import-sort": {
-          "optional": true
-      },
-      "eslint-plugin-unicorn": {
-          "optional": true
-      }
+        "@typescript-eslint/eslint-plugin": {
+            "optional": true
+        },
+        "@typescript-eslint/parser": {
+            "optional": true
+        },
+        "eslint-plugin-jest": {
+            "optional": true
+        },
+        "eslint-plugin-jsx-a11y": {
+            "optional": true
+        },
+        "eslint-plugin-react": {
+            "optional": true
+        },
+        "eslint-plugin-react-hooks": {
+            "optional": true
+        },
+        "eslint-plugin-react-native": {
+            "optional": true
+        },
+        "eslint-plugin-simple-import-sort": {
+            "optional": true
+        },
+        "eslint-plugin-unicorn": {
+            "optional": true
+        }
     },
     "devDependencies": {
         "@release-it/conventional-changelog": "^5.0.0",
