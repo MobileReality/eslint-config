@@ -21,46 +21,45 @@ ESLint's configuration of Mobile Reality Team
 - [License](#license)
 
 ## Requirements
-* for web: `react`, for mobile: `react-native`
 * `node: ^16.13`
-* `eslint: ^8.13.0`
+* `eslint: ~8.20.0`
+* `eslint-plugin-prettier: ^4.2.0`
 
 ## Installation and usage for a new project
-1. Install `@mobile-reality/eslint-config`, `eslint` and `prettier`:
+1. Install `@mobile-reality/eslint-config`, `eslint`, `prettier` and `eslint-plugin-prettier`:
     ```sh
-    yarn add -D @mobile-reality/eslint-config eslint@latest prettier@latest
+    yarn add -D @mobile-reality/eslint-config eslint@~8.20.0 prettier eslint-plugin-prettier
     ```
     or
     ```sh
-    npm i -D @mobile-reality/eslint-config eslint@latest prettier@latest
+    npm i -D @mobile-reality/eslint-config eslint@~8.20.0 prettier eslint-plugin-prettier
     ```
 
 2. Copy `.prettierrc` from `node_modules/@mobile-reality/eslint-config` to your root directory
-3. Add to your root `.eslintrc.js` file and:
-   * if you are using **React with TypeScript**:
-    ```typescript jsx
+3. Add to your root `.eslintrc.js` file:
+    ```javascript
     module.exports = {
-        extends: [
-            '@mobile-reality'
-        ]
+      root: true,
+      env: {}, // env config is based on project scope eg is it only node or node+browser
+      extends: [
+        '@mobile-reality/eslint-config/XXX', // base config based on project scope, XXX described below
+        'plugin:prettier/recommended', // to include prettier rules in eslint
+      ],
+      // if jest is used jest config should be added to overrides section
+      overrides: [
+       {
+         files: ["test/**/*.test.ts"], // glob pattern has to match test files
+         extends: ["@mobile-reality/eslint-config/configs/jest"],
+       }
+      ],  
     };
-    ```
-   * if you are using **React without TypeScript**:
-    ```typescript jsx
-    module.exports = {
-        extends: [
-            '@mobile-reality/eslint-config/react-javascript'
-        ]
-    };
-    ```
-    * if you are using **React Native with TypeScript**:
-    ```typescript jsx
-    module.exports = {
-        extends: [
-            '@mobile-reality/eslint-config/react-native'
-        ]
-    };
-    ```
+    ```  
+   XXX is a preconfigured eslint config for MR projects. Supported configs:
+   - node-javascript
+   - node-typescript
+   - react-javascript
+   - react-typescript
+   - react-native
    
 ## Installation and usage for an existing project
 1. Remove all `ESLint` and `prettier` dependencies (e.g. `eslint`, `prettier`, `eslint-plugin-prettier`, `@typescript-eslint/eslint-plugin` etc.) from package.json
@@ -69,8 +68,9 @@ ESLint's configuration of Mobile Reality Team
 
 ## Override
 You can override rules by adding a rule to the rules section e.g.:
-```typescript jsx
+```javascript
     module.exports = {
+        root: true,
         extends: [
             '@mobile-reality'
         ],
@@ -87,7 +87,6 @@ You can override rules by adding a rule to the rules section e.g.:
 * [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype)
 * [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
 * [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
-* [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
 * [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 * [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
 * [eslint-plugin-react-native](https://github.com/intellicode/eslint-plugin-react-native)

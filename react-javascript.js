@@ -3,6 +3,6 @@ module.exports = {
         './configs/eslint',
         './configs/unicorn',
         './configs/react',
-        'plugin:prettier/recommended',
+        'prettier',
     ],
 };

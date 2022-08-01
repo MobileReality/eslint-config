@@ -4,6 +4,6 @@ module.exports = {
         './configs/typescript',
         './configs/unicorn',
         './configs/react',
-        'plugin:prettier/recommended',
+        'prettier',
     ],
 };

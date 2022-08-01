@@ -8,6 +8,6 @@ module.exports = {
         './configs/unicorn',
         './configs/react',
         './configs/react-native',
-        'plugin:prettier/recommended',
+        'prettier',
     ],
 };
