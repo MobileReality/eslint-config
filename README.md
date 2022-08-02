@@ -42,8 +42,7 @@ ESLint's configuration of Mobile Reality Team
     npm i -D @mobile-reality/eslint-config eslint@~8.20.0 prettier eslint-plugin-prettier
     ```
 
-2. Copy `.prettierrc` from `node_modules/@mobile-reality/eslint-config` to your root directory
-3. Add to your root `.eslintrc.js` file:
+2. Add to your root `.eslintrc.js` file:
     ```javascript
     module.exports = {
         root: true,
