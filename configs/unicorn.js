@@ -7,12 +7,7 @@ module.exports = {
         'unicorn/no-array-callback-reference': 'off',
         'unicorn/no-array-method-this-argument': 'off',
 
-        'unicorn/catch-error-name': [
-            'error',
-            {
-                name: 'err',
-            },
-        ],
+        'unicorn/catch-error-name': ['error', { name: 'err' }],
         'unicorn/consistent-function-scoping': [
             'error',
             { checkArrowFunctions: false },
