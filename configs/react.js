@@ -3,8 +3,8 @@ module.exports = {
         'plugin:react/recommended',
         'plugin:react-hooks/recommended',
         'plugin:jsx-a11y/recommended',
+        'prettier',
     ],
-    plugins: ['simple-import-sort'],
     rules: {
         'react/boolean-prop-naming': 'error',
         'react/button-has-type': 'error',
@@ -31,32 +31,5 @@ module.exports = {
         'react/no-typos': 'error',
         'react/prop-types': 'off',
         'react/self-closing-comp': 'error',
-        'simple-import-sort/exports': 'error',
-        'simple-import-sort/imports': [
-            'error',
-            {
-                groups: [
-                    ['^\\u0000'],
-                    [
-                        '^react',
-                        '^react-native',
-                        '^next',
-                        '^axios',
-                        '^graphql',
-                        '^urql',
-                        '^styled-components',
-                        '^pages',
-                        '^views',
-                        '^@?\\w',
-                    ],
-                    ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
-                    ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
-                ],
-            },
-        ],
-        '@typescript-eslint/no-confusing-void-expression': 'off',
-        '@typescript-eslint/no-misused-promises': 'off',
-        'no-underscore-dangle': 'off',
-        'class-methods-use-this': 'off',
     },
 };

@@ -63,9 +63,9 @@ ESLint's configuration of Mobile Reality Team
     XXX is a preconfigured eslint config for MR projects. Supported configs with required peerDependencies (which must be installed in project):
     - node-javascript
     - node-typescript (@typescript-eslint/eslint-plugin@~5.31.0 @typescript-eslint/parser@~5.31.0)
-    - react-javascript (eslint-plugin-unicorn eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-simple-import-sort)
-    - react-typescript (@typescript-eslint/eslint-plugin@~5.31.0 @typescript-eslint/parser@~5.31.0 eslint-plugin-unicorn eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-simple-import-sort)
-    - react-native (@typescript-eslint/eslint-plugin@~5.31.0 @typescript-eslint/parser@~5.31.0 eslint-plugin-unicorn eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-simple-import-sort eslint-plugin-react-native)
+    - react-javascript (eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-simple-import-sort)
+    - react-typescript (@typescript-eslint/eslint-plugin@~5.31.0 @typescript-eslint/parser@~5.31.0 eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-simple-import-sort)
+    - react-native (@typescript-eslint/eslint-plugin@~5.31.0 @typescript-eslint/parser@~5.31.0 eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-simple-import-sort eslint-plugin-react-native)
 
 ## Installation and usage for an existing project
 

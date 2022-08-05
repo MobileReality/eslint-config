@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ['eslint:all'],
+    extends: ['eslint:all', 'prettier'],
     rules: {
         'one-var': ['error', 'never'],
         'no-magic-numbers': 'off',
@@ -27,5 +27,6 @@ module.exports = {
         'multiline-comment-style': 'off',
         'consistent-return': 'off',
         'prefer-named-capture-group': 'off',
+        'class-methods-use-this': 'off',
     },
 };
