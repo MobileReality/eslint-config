@@ -1,3 +1,3 @@
 module.exports = {
-    extends: ['./configs/eslint', './configs/typescript', 'prettier'],
+    extends: ['./node-javascript', './configs/typescript'],
 };

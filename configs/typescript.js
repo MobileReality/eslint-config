@@ -3,7 +3,7 @@ module.exports = {
         project: 'tsconfig.json',
         sourceType: 'module',
     },
-    extends: [`plugin:@typescript-eslint/all`],
+    extends: ['plugin:@typescript-eslint/all', 'prettier'],
     rules: {
         '@typescript-eslint/prefer-readonly-parameter-types': 'off',
         '@typescript-eslint/promise-function-async': 'off',
