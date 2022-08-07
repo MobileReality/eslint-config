@@ -3,18 +3,34 @@ module.exports = {
     extends: ['./configs/eslint', './configs/unicorn', './configs/react'],
     rules: {
         'no-underscore-dangle': 'off',
+        'prefer-destructuring': [
+            'error',
+            {
+                array: false,
+            },
+        ],
+        'no-empty-function': [
+            'error',
+            {
+                allow: ['arrowFunctions'],
+            },
+        ],
+        'no-shadow': 'off',
+        'no-implicit-coercion': [
+            'error',
+            {
+                boolean: false,
+            },
+        ],
 
-        'unicorn/filename-case': 'off',
-        'unicorn/no-thenable': 'off',
-        'unicorn/no-useless-undefined': 'off',
-        'unicorn/numeric-separators-style': 'off',
-        'unicorn/prefer-module': 'off',
         'unicorn/prefer-node-protocol': 'off',
-        'unicorn/prefer-regexp-test': 'off',
-        'unicorn/prefer-set-has': 'off',
         'unicorn/prefer-spread': 'off',
-        'unicorn/template-indent': 'off',
-        'unicorn/text-encoding-identifier-case': 'off',
+        'unicorn/template-indent': [
+            'error',
+            {
+                indent: 4,
+            },
+        ],
 
         'simple-import-sort/exports': 'error',
         'simple-import-sort/imports': [
