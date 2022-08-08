@@ -3,13 +3,6 @@ module.exports = {
     extends: ['./configs/eslint', './configs/unicorn', './configs/react'],
     rules: {
         'no-underscore-dangle': 'off',
-        'no-shadow': 'off',
-        'no-empty-function': [
-            'error',
-            {
-                allow: ['arrowFunctions'],
-            },
-        ],
         'no-implicit-coercion': [
             'error',
             {
@@ -17,7 +10,7 @@ module.exports = {
             },
         ],
 
-        'unicorn/prefer-node-protocol': 'off',
+        // disabled because of https://github.com/sindresorhus/eslint-plugin-unicorn/issues/687
         'unicorn/prefer-spread': 'off',
         'unicorn/template-indent': [
             'error',
