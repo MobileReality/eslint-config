@@ -3,19 +3,13 @@ module.exports = {
     extends: ['./configs/eslint', './configs/unicorn', './configs/react'],
     rules: {
         'no-underscore-dangle': 'off',
-        'prefer-destructuring': [
-            'error',
-            {
-                array: false,
-            },
-        ],
+        'no-shadow': 'off',
         'no-empty-function': [
             'error',
             {
                 allow: ['arrowFunctions'],
             },
         ],
-        'no-shadow': 'off',
         'no-implicit-coercion': [
             'error',
             {
