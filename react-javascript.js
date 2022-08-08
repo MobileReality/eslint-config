@@ -3,18 +3,21 @@ module.exports = {
     extends: ['./configs/eslint', './configs/unicorn', './configs/react'],
     rules: {
         'no-underscore-dangle': 'off',
+        'no-implicit-coercion': [
+            'error',
+            {
+                boolean: false,
+            },
+        ],
 
-        'unicorn/filename-case': 'off',
-        'unicorn/no-thenable': 'off',
-        'unicorn/no-useless-undefined': 'off',
-        'unicorn/numeric-separators-style': 'off',
-        'unicorn/prefer-module': 'off',
-        'unicorn/prefer-node-protocol': 'off',
-        'unicorn/prefer-regexp-test': 'off',
-        'unicorn/prefer-set-has': 'off',
+        // disabled because of https://github.com/sindresorhus/eslint-plugin-unicorn/issues/687
         'unicorn/prefer-spread': 'off',
-        'unicorn/template-indent': 'off',
-        'unicorn/text-encoding-identifier-case': 'off',
+        'unicorn/template-indent': [
+            'error',
+            {
+                indent: 4,
+            },
+        ],
 
         'simple-import-sort/exports': 'error',
         'simple-import-sort/imports': [

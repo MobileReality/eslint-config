@@ -28,5 +28,12 @@ module.exports = {
         'consistent-return': 'off',
         'prefer-named-capture-group': 'off',
         'class-methods-use-this': 'off',
+        'no-shadow': 'off',
+        'no-empty-function': [
+            'error',
+            {
+                allow: ['arrowFunctions'],
+            },
+        ],
     },
 };
