@@ -3,7 +3,7 @@
     "version": "0.8.0",
     "description": "ESLint's configuration of Mobile Reality Team",
     "engines": {
-        "node": "^16.13"
+        "node": "^16.13 || ^18.15.0"
     },
     "repository": "https://github.com/MobileReality/eslint-config",
     "author": "Mobile Reality <biuro@mobilereality.pl> (https://mobilereality.pl)",
