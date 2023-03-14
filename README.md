@@ -24,7 +24,7 @@ ESLint's configuration of Mobile Reality Team
 
 ## Requirements
 
--   `node: ^16.13`
+-   `node: ^16.13 || ^18.15.0`
 -   `eslint: ~8.20.0`
 -   `eslint-plugin-prettier: ^4.2.0`
 
