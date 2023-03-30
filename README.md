@@ -25,7 +25,7 @@ ESLint's configuration of Mobile Reality Team
 ## Requirements
 
 -   `node: ^16.13 || ^18.15.0`
--   `eslint: ~8.20.0`
+-   `eslint: ^8.37.0`
 -   `eslint-plugin-prettier: ^4.2.0`
 
 ## Installation and usage for a new project
@@ -33,13 +33,13 @@ ESLint's configuration of Mobile Reality Team
 1. Install `@mobile-reality/eslint-config`, `eslint`, `prettier` and `eslint-plugin-prettier`:
 
     ```sh
-    yarn add -D @mobile-reality/eslint-config eslint@~8.20.0 prettier eslint-plugin-prettier
+    yarn add -D @mobile-reality/eslint-config eslint@^8.37.0 prettier eslint-plugin-prettier
     ```
 
     or
 
     ```sh
-    npm i -D @mobile-reality/eslint-config eslint@~8.20.0 prettier eslint-plugin-prettier
+    npm i -D @mobile-reality/eslint-config eslint@^8.37.0 prettier eslint-plugin-prettier
     ```
 
 2. Add to your root `.eslintrc.js` file:
