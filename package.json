@@ -3,7 +3,7 @@
     "version": "0.9.0",
     "description": "ESLint's configuration of Mobile Reality Team",
     "engines": {
-        "node": "^16.13 || ^18.15.0"
+        "node": "^16.13.0 || ^18.15.0"
     },
     "repository": "https://github.com/MobileReality/eslint-config",
     "author": "Mobile Reality <biuro@mobilereality.pl> (https://mobilereality.pl)",
@@ -55,7 +55,7 @@
     "peerDependencies": {
         "@typescript-eslint/eslint-plugin": "~5.31.0",
         "@typescript-eslint/parser": "~5.31.0",
-        "eslint": "~8.20.0",
+        "eslint": "^8.37.0",
         "eslint-plugin-jest": "^26.1.5",
         "eslint-plugin-jsx-a11y": "^6.5.1",
         "eslint-plugin-prettier": "^4.2.0",
