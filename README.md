@@ -9,7 +9,7 @@
 
 ---
 
-ESLint's configuration of Mobile Reality Team
+ESLint's configuration of [Mobile Reality](https://themobilereality.com) team.
 
 ---
 
