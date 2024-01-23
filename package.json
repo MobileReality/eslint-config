@@ -3,7 +3,7 @@
     "version": "0.10.1",
     "description": "ESLint's configuration of Mobile Reality Team",
     "engines": {
-        "node": "^16.13.0 || ^18.15.0"
+        "node": "^18.15.0"
     },
     "repository": "https://github.com/MobileReality/eslint-config",
     "author": "Mobile Reality <biuro@mobilereality.pl> (https://mobilereality.pl)",
@@ -42,28 +42,28 @@
         "*.{md,json,js}": "prettier --write ."
     },
     "dependencies": {
-        "eslint-config-prettier": "^8.5.0",
-        "eslint-plugin-unicorn": "^43.0.2"
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-unicorn": "^50.0.1"
     },
     "devDependencies": {
-        "@release-it/conventional-changelog": "^5.0.0",
-        "husky": "^8.0.1",
-        "lint-staged": "^12.3.7",
-        "prettier": "^2.7.1",
-        "release-it": "^15.0.0"
+        "@release-it/conventional-changelog": "^8.0.1",
+        "husky": "^8.0.3",
+        "lint-staged": "^15.2.0",
+        "prettier": "^3.2.4",
+        "release-it": "^17.0.1"
     },
     "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": "~5.31.0",
-        "@typescript-eslint/parser": "~5.31.0",
-        "eslint": "^8.37.0",
-        "eslint-plugin-jest": "^26.1.5",
-        "eslint-plugin-jsx-a11y": "^6.5.1",
-        "eslint-plugin-prettier": "^4.2.0",
-        "eslint-plugin-react": "^7.29.4",
-        "eslint-plugin-react-hooks": "^4.4.0",
+        "@typescript-eslint/eslint-plugin": "~6.19.1",
+        "@typescript-eslint/parser": "~6.19.1",
+        "eslint": "^8.56.0",
+        "eslint-plugin-jest": "^27.6.3",
+        "eslint-plugin-jsx-a11y": "^6.8.0",
+        "eslint-plugin-prettier": "^5.1.3",
+        "eslint-plugin-react": "^7.33.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
         "eslint-plugin-react-native": "^4.0.0",
-        "eslint-plugin-simple-import-sort": "^7.0.0",
-        "prettier": "^2.7.0"
+        "eslint-plugin-simple-import-sort": "^10.0.0",
+        "prettier": "^3.2.4"
     },
     "peerDependenciesMeta": {
         "@typescript-eslint/eslint-plugin": {
